@@ -17,12 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="PJw-SX-l2c">
-                                <rect key="frame" x="118" y="264" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="PJw-SX-l2c">
+                                <rect key="frame" x="118.5" y="264" width="138" height="139"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PJw-SX-l2c" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pRl-q4-6Jy"/>
+                            <constraint firstItem="PJw-SX-l2c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tDT-go-Kbo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
